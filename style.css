@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    
+}
+
+
+
+header{
+    height: 196px;
+}
+.container{
+    margin: 32px 56px 0;
+}
+   
+
+#langs{
+    width: 93.69px;
+    height: 20px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+    position: absolute;
+    margin-right: 88px;
+    /* position: absolute;
+    margin-right: 88px;
+    margin-top: 10px; */
+
+}
+#logo{
+    width: 190px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    
+}
+#logocontain{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 88px;
+}
+
+#logodiv{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: 700;
+    position: relative;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navbar li{
+    padding: 0 5px;
+    height: 50px;
+}
+.navlink{
+    color:black;
+    display: flex;
+    align-items: center;    
+    display: block; 
+    height: 50px;     
+    padding: 0.5em 0.8em;
+    font-size: 12px;
+}
+
+.navlink:last-child{
+  position: absolute;
+  right: 89px;
+}
+#pic-section{
+    height: 819px;
+    width: 100%;
+    background-image: url(./assets/1920x10801.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-next{
+    height:40px;
+    width: 43px;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center{
+    width: 1001.42px;
+    height: 90px;
+    text-align: center;
+
+}
+.black-btn{
+    height: 60px;
+    width: 180px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    opacity: 0.7;
+    border-radius: 4px;
+}
+
+#play{
+    transform: rotate(90deg);
+    color: white;
+    width: 50px;
+    height: 50px;
+
+}
+#section-after-image{
+    height: 812.84px;
+    width: 100%;
+}
+#about-us-1{
+    width: 310.48px;
+    height: 144.98px;
+    text-align: center;
+}
+#about-us-button{
+    width: 180px;
+    height: 43.8px;
+    cursor: pointer;
+    border: 3px solid;
+    margin:  20px 0;
+    border-radius: 3px;
+    border-color: black;
+}
+.white-btn:hover{
+    background-color: grey;
+    transition: .7s;
+}
+
+#section-after-image-1{
+    width: 931.5px;
+    height: 238.84px;
+    display: flex;
+    margin: 0 56px;
+    margin-top: 32px;
+
+}
+#section-after-image-1 h1{ 
+    font-size: 36px;
+}
+#section-after-image-1 p{
+    margin-bottom: 20px;
+    font-size: 100%;
+}
+#about-us-2{
+    width: 620.98px;
+    height: 218.84px;
+}
+#section-after-image-2{
+    height: 510px;
+    display: flex;
+    margin: 0 56px;
+}
+#discover-button{
+   width:  180px;
+   height: 43.8px;
+   border: 3px solid;
+   cursor: pointer;
+   border-color: black;
+   border-radius: 3px;
+
+
+}
+#pic-section-2{
+    
+    height: 434px;
+    background-image: url(./assets/regions3.jpg);
+    background-size: 100% 434px;
+    color: white;
+    text-align: center;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pic-section-2 h1{
+    font-size: 70px;
+    font-weight: 900;
+
+}
+.white-btn{
+    background-color: white;
+    opacity: 0.6px;
+    color: black;
+    cursor: pointer;
+    width: 180px;
+    height: 37.8px;
+    margin-top: 32px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+#news{
+    width: 100%;
+    height: 678.25px;
+    display: flex;
+}
+#news-button{
+    width: 180px;
+    height: 43.8px;
+    border: 2px solid;
+    cursor: pointer;
+}
+#news1{
+    width: 50%;
+    height: 643.25px;
+}
+#news2{
+    width: 50%;
+    height: 623.25px;
+}
+#news-img1{
+    width: 221.59px;
+    height: 424.63px;
+}
+#news-img2{
+    width: 221.59px;
+    height: 147.13px;
+}
+#news-img3,#news-img4{
+    width: 221.59px;
+    height: 147.72px;
+}
+#two-pic{
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+#winery,#visit-us{
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    filter: grayscale(100%); 
+}
+#visit-us:hover{
+    filter: grayscale(0%);
+    transition: 1.7s;
+}
+#winery:hover{
+    filter: grayscale(0%);
+}
+#winery{
+    background-image: url(./assets/winery1.jpg);
+    
+}
+
+#visit-us{
+    background-image:url(./assets/visit_us.jpg);   
+}
+
+#last-pic{
+    background-color: black;
+    height: 470px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#last-pic-img{
+    width: 570px;
+    height: 460px;
+}
+#footer1{
+    height: 276.1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#footer1-1{
+    height: 335.95px;
+    width: 109.98px;
+    
+}
+#footer1-2{
+    width: 335.95px;
+    height:231.39px;
+}
+#footer1-3{
+    width: 335.95px;
+    height: 163.8px;
+   
+
+}
+.footer-contacts{
+    display: flex;
+}
+footer a{
+    color: white;
+}
