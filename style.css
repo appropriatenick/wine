@@ -87,10 +87,7 @@ nav{
     font-size: 12px;
 }
 
-.navlink:last-child{
-  position: absolute;
-  right: 89px;
-}
+
 #pic-section{
     height: 819px;
     width: 100%;
