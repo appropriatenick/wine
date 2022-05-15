@@ -3,320 +3,337 @@
     padding: 0;
     border: none;
     text-decoration: none;
-    
-}
-
-
-
-header{
-    height: 196px;
-}
-.container{
-    margin: 32px 56px 0;
-}
-   
-
-#langs{
-    width: 93.69px;
-    height: 20px;
-    font-size: 11px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 11px;
-    position: absolute;
-    margin-right: 88px;
-    /* position: absolute;
-    margin-right: 88px;
-    margin-top: 10px; */
-
-}
-#logo{
-    width: 190px;
-    height: 86px;
-    display: flex;
-    justify-content: center;
-    
-}
-#logocontain{
-    height: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-    margin-right: 88px;
-}
-
-#logodiv{
-    display: flex;
-    justify-content: center;
-}
-
-nav{
-    height: 50px;
-    display: flex;
-    font-size: 12px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-top: 55px;
-    
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    font-weight: 700;
-    position: relative;
-}
-.navbar ul{
-    display: flex;
-    flex-direction: row;
     list-style: none;
+    line-height: 1.7;
 }
-.navbar li{
-    padding: 0 5px;
-    height: 50px;
+
+.container{
+    padding: 32px 65px 0px;
 }
-.navlink{
-    color:black;
+.center{
+    max-width: 90%;
     display: flex;
-    align-items: center;    
-    display: block; 
-    height: 50px;     
-    padding: 0.5em 0.8em;
-    font-size: 12px;
+    width: 980px;
 }
-
-
-#pic-section{
-    height: 819px;
-    width: 100%;
-    background-image: url(./assets/1920x10801.jpg);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.img-next{
-    height:40px;
-    width: 43px;
-    background-color: black;
-    opacity: 0.6;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#center{
-    width: 1001.42px;
-    height: 90px;
-    text-align: center;
-
-}
-.black-btn{
-    height: 60px;
-    width: 180px;
-    background-color: black;
-    cursor: pointer;
-    color: white;
-    opacity: 0.7;
-    border-radius: 4px;
-}
-
-#play{
-    transform: rotate(90deg);
-    color: white;
-    width: 50px;
-    height: 50px;
-
-}
-#section-after-image{
-    height: 812.84px;
-    width: 100%;
-}
-#about-us-1{
-    width: 310.48px;
-    height: 144.98px;
-    text-align: center;
-}
-#about-us-button{
-    width: 180px;
-    height: 43.8px;
-    cursor: pointer;
-    border: 3px solid;
-    margin:  20px 0;
-    border-radius: 3px;
-    border-color: black;
-}
-.white-btn:hover{
-    background-color: grey;
-    transition: .7s;
-}
-
-#section-after-image-1{
-    width: 931.5px;
-    height: 238.84px;
-    display: flex;
-    margin: 0 56px;
-    margin-top: 32px;
-
-}
-#section-after-image-1 h1{ 
+.title{
     font-size: 36px;
-}
-#section-after-image-1 p{
-    margin-bottom: 20px;
-    font-size: 100%;
-}
-#about-us-2{
-    width: 620.98px;
-    height: 218.84px;
-}
-#section-after-image-2{
-    height: 510px;
-    display: flex;
-    margin: 0 56px;
-}
-#discover-button{
-   width:  180px;
-   height: 43.8px;
-   border: 3px solid;
-   cursor: pointer;
-   border-color: black;
-   border-radius: 3px;
-
-
-}
-#pic-section-2{
-    
-    height: 434px;
-    background-image: url(./assets/regions3.jpg);
-    background-size: 100% 434px;
-    color: white;
-    text-align: center;    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#pic-section-2 h1{
-    font-size: 70px;
     font-weight: 900;
+    margin-bottom: 20px;
+}
 
+.text{
+    margin-bottom: 20px;
 }
 .white-btn{
-    background-color: white;
-    opacity: 0.6px;
+    display: block;
+    border: 3px solid;
+    font-weight: 600;
     color: black;
-    cursor: pointer;
+    border-radius: 2px;
     width: 180px;
-    height: 37.8px;
-    margin-top: 32px;
-    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.black-btn{
+    display: inline-block;
+    color: white;
+    border-radius: 4px;
+    background-color: black;
+    width: 180px;
+    margin: 35px;
+    font-size: 14px;
+    opacity: 0.8;
+    padding: 0.5em 1em;
+}
+/* header section */
+#logo-block{
+    width: 100%;
+    position: relative;
+}
+.lang-block{
+     position: absolute;
+     top: 10px;
+     right: 88px;
+}
+.lang-text{
+    font-size: 11px;
     font-weight: bold;
 }
-#news{
+#logo{
     width: 100%;
-    height: 678.25px;
-    display: flex;
-}
-#news-button{
-    width: 180px;
-    height: 43.8px;
-    border: 2px solid;
-    cursor: pointer;
-}
-#news1{
-    width: 50%;
-    height: 643.25px;
-}
-#news2{
-    width: 50%;
-    height: 623.25px;
-}
-#news-img1{
-    width: 221.59px;
-    height: 424.63px;
-}
-#news-img2{
-    width: 221.59px;
-    height: 147.13px;
-}
-#news-img3,#news-img4{
-    width: 221.59px;
-    height: 147.72px;
-}
-#two-pic{
-    height: 350px;
-    width: 100%;
-    display: flex;
-}
-#winery,#visit-us{
-    width: 50%;
-    height: 350px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    font-size: 36px;
-    font-weight: 900;
-    filter: grayscale(100%); 
 }
-#visit-us:hover{
-    filter: grayscale(0%);
-    transition: 1.7s;
+#logo img{
+    margin: 30px 0px;
 }
-#winery:hover{
-    filter: grayscale(0%);
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
-#winery{
-    background-image: url(./assets/winery1.jpg);
+.nav-link{
     
 }
+#nav-list{
+    display: flex;
+    flex-direction: row;
 
-#visit-us{
-    background-image:url(./assets/visit_us.jpg);   
 }
+.nav-li{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.nav-link{
+    padding: 0.5em 0.8em;
+    color: black;
+}
+.nav-li:last-child{
+   margin-left: 69px;
+}
+/* end of header section */
 
-#last-pic{
-    background-color: black;
-    height: 470px;
-    width: 100%;
+/* slider section */
+#slider{
+    background-image: url(./assets/1920x10801.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slider-container::before{
+  content:url(./);
+    
+}
+#slider-prev{
+    
+}
+#slider h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    line-height: 70px;
+}
+#slider h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 60px;
+}
+/* end of slider section */
+
+/* abous us section */
+#about-us{
     display: flex;
     justify-content: center;
 }
-#last-pic-img{
+.about-us-left,.about-us-right{
+   margin: 0 auto;
+}
+#about-us h1{
+    margin-bottom: 20px;
+}
+/* end of about us section */
+
+/* discover armenia section */
+.discover{
+    display: flex;
+    justify-content: center;
+
+}
+.discover-left,.discover-right{
+
+}
+.discover img{
+    height: auto;
+}
+/* end of discover armenia section */
+
+/* wine regions section */
+#wine-region{
+    background-image: url(./assets/regions3.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 434px;
+}
+
+
+
+/* end of wine regions section */
+#news{
+    display: flex;
+    justify-content: center;
+}
+.news-right{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.news-right,.news-left{
+    width: 50%;
+}
+.news-right img{
+    width: 100%;
+    height: fit-content;
+}
+.img-block{
+    position: relative;
+    z-index: 10;
+    width: 50%;
+}
+
+   
+.img-block:hover.img-block::before{
+    content:'2500 companies from 73 countries from all over the world';
+    background-color: white;
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 12;
+    display: block;
+    transition: .8s;
+}
+/* news section */
+
+/* grey pics section */
+.grey-pics{
+    width: 100%;
+    display: flex;
+}
+.grey-pics1,.grey-pics2{
+    width: 50%;
+    min-height: 350px;
+    text-align: center;
+    filter: grayscale(1);
+}
+.grey-pics1{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grey-pics h1{
+    margin-top: 100px;
+}
+.grey-pics1:hover,.grey-pics2:hover{
+    filter: grayscale(0);
+    transition: .6s;
+}
+/* end of grey pics section */
+
+/* pic section */
+#wine-pic{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+#wine-pic img{
     width: 570px;
     height: 460px;
 }
-#footer1{
-    height: 276.1px;
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
     background-color: black;
     color: white;
-    display: flex;
-    justify-content: space-around;
+    background-image: url(./assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 45px;
 }
-#footer1-1{
-    height: 335.95px;
-    width: 109.98px;
-    
+.link-column-title{
+    font-weight: 600;
+    font-size: 1.077em;
+    margin: 0 0 20px;
 }
-#footer1-2{
-    width: 335.95px;
-    height:231.39px;
-}
-#footer1-3{
-    width: 335.95px;
-    height: 163.8px;
-   
+.footer-btn{
+    font-size: 14px;
+    border-radius: 4px;
+    width: 180px;
+    border-color: white;
 
 }
-.footer-contacts{
-    display: flex;
+.link-column{
+    width: 33.3%;
+    text-align: center;
 }
 footer a{
     color: white;
+    display: block;
+}
+
+.follow-link{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-links{
+    display: flex;
+    justify-content: center;
+}
+.follow-link {
+    display: block;
+}
+
+.follow-link:first-child:hover{
+    background-color: #4267B2;
+}
+.follow-link:last-child:hover{
+    background-color: 	#FF0000;
+}
+/* end of footer */
+
+/* copyright */
+#copyright{
+    min-height: 40px;
+    background-color: #222;
+    width: 100%;
+    color: #999;
+    font-size: 0.923em;
+}
+#copyright a{
+    color: #aaa;
+}
+
+.copyright-block{
+    display: flex;
+    justify-content: space-around;
+}
+#copyright-block-left,#copyright-block-right{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* end of copyright */
+@media only screen and (max-width:768px) {
+    .center{
+        flex-direction:column;
+        text-align: center;
+    }
+    #wine-pic img{
+        width: 100%;
+        height: fit-content;
+        text-size-adjust: 80%;
+    }
+    
 }
